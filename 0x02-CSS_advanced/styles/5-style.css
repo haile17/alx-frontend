@@ -1,12 +1,16 @@
+/*task 5*/
 :root {
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*colors*/
     --color-primary: #d73953;
     --color-black : #090909;
     --color-white : #ffffff;
     --color-light-gray: #f3f3f3;
     --color-dark-gray: #353535;
     --text-color: var (--color-balck)
+    /*font family*/
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*fonts sizes*/
     --font-size-small : 1.2rem;
     --font-size-medium : 1.6rem;
     --font-size-large : 1.8rem;
@@ -23,7 +27,7 @@ body {
     font: var(--font-size-medium);
 } 
 
-h1, h2, h3, h4, h5, h6 {
+section :is(h1, h2, h3, h4, h5, h6) {
     font-family: var(--font-family-title);
 }
 a {
