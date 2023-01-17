@@ -38,10 +38,6 @@ a {
     display: none;
 }
 
-.card-category {
-    background-color: var(--color-primary);
-}
-
-section-tagline {
+.card-category, .section-tagline {
     background-color: var(--color-primary);
 }
