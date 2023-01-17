@@ -30,11 +30,14 @@ a {
     background-color: var(--text-color);
 }
 
-
 .visually-hidden {
     display: none;
 }
 
-.card-category, .section-tagline {
+.card-category {
+    background-color: var(--color-primary);
+}
+
+section-tagline {
     background-color: var(--color-primary);
 }
